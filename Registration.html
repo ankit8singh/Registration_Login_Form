@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="heading">
+            <h1>Registration Form</h1>
+        </div>
+        <form>
+
+            <div>
+                First name:<input type="text" name="firstname" class="outline" placeholder="First name">
+            </div>
+            <div>
+                Last name:<input type="text" name="lastname" class="outline" placeholder="Last name">
+            </div>
+            <div class="gender">
+                Gender:&nbsp;&nbsp;&nbsp;&nbsp; 
+                 <input type="radio" name="gender" value="male" id="male">
+                 <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                Email: <input type="email" name="email" class="outline" placeholder="example@gmail.com">
+            </div>
+            <div>
+                Mobile Number : <input type="number" name="Mobile NUmber" class="outline" placeholder="8888888888">
+            </div>
+            <div>
+                Password: <input type="text" name="password" class="outline" placeholder="example@123">
+            </div>
+            <div>
+                Confirm password: <input type="text" name="confirmpassword" class="outline" placeholder="Confirm Password">
+            </div>
+            <div>
+                Address :<textarea name="address" class="outline" cols="" rows="" placeholder="Enter your Current Address"></textarea>
+            </div>
+            <div class="link">
+                Already account<a href="login.html">&nbsp;Log in&nbsp;</a>here
+            </div>
+            <div>
+                <button type="submit" name="Submit" >Submit</button> 
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
